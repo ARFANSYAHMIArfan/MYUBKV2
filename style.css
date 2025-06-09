@@ -1,0 +1,45 @@
+body {
+    background-color: #FF6B6B; /* Vibrant red */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Default text color */
+}
+
+.container {
+    text-align: center;
+    background-color: #FFFFFF; /* White background for content */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #1ABC9C; /* Bright turquoise */
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Add margin below paragraphs */
+}
+
+#cta-button {
+    display: inline-block; /* Ensure button is treated as a block for margin */
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: #FFFFFF; /* White text color */
+    background-color: #3498DB; /* Bright blue background */
+    border: none;
+    border-radius: 50px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from link */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px; /* Add margin above the button */
+}
